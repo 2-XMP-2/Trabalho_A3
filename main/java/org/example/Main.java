@@ -86,7 +86,7 @@ public class Main {
 
 
                     if (v == null)
-                        System.out.println("Veículo encontrado.");
+                        System.out.println("Veículo não encontrado.");
                     else {
                         int totalMin = v.getHoraEntrada();
                         int hora = totalMin / 60;
